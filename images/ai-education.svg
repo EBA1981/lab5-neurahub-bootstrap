@@ -1,0 +1,27 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 640 360">
+  <defs>
+    <linearGradient id="bg2" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0%" stop-color="#dbeafe"/><stop offset="100%" stop-color="#c7d2fe"/>
+    </linearGradient>
+  </defs>
+  <rect width="640" height="360" fill="url(#bg2)"/>
+  <!-- laptop -->
+  <rect x="170" y="90" width="300" height="180" rx="12" fill="#0d1330"/>
+  <rect x="184" y="104" width="272" height="152" rx="6" fill="#ffffff"/>
+  <path d="M130 270h380l-24 30H154z" fill="#334155"/>
+  <!-- chat bubbles -->
+  <rect x="200" y="118" width="150" height="34" rx="12" fill="#e0e7ff"/>
+  <rect x="212" y="130" width="110" height="10" rx="5" fill="#6366f1"/>
+  <rect x="290" y="164" width="150" height="34" rx="12" fill="#22d3ee"/>
+  <rect x="302" y="176" width="120" height="10" rx="5" fill="#0d1330" opacity=".6"/>
+  <rect x="200" y="210" width="120" height="34" rx="12" fill="#e0e7ff"/>
+  <rect x="212" y="222" width="80" height="10" rx="5" fill="#6366f1"/>
+  <!-- graduation cap -->
+  <polygon points="520,70 590,100 520,130 450,100" fill="#0d1330"/>
+  <path d="M485 112v30c0 10 70 10 70 0v-30l-35 16z" fill="#1e293b"/>
+  <line x1="590" y1="100" x2="590" y2="140" stroke="#f59e0b" stroke-width="4"/>
+  <circle cx="590" cy="144" r="6" fill="#f59e0b"/>
+  <!-- book -->
+  <rect x="60" y="210" width="80" height="60" rx="6" fill="#6366f1"/>
+  <rect x="66" y="216" width="68" height="48" rx="4" fill="#a5b4fc"/>
+</svg>

@@ -1,0 +1,90 @@
+/* ===== NeuraHub custom styles (on top of Bootstrap 5) ===== */
+
+:root {
+  --navy: #0d1330;
+  --navy-light: #2a1f5c;
+  --accent: #22d3ee;
+  --accent-dark: #0891b2;
+}
+
+html { scroll-padding-top: 72px; }
+body { font-family: "Segoe UI", system-ui, -apple-system, Roboto, Arial, sans-serif; overflow-x: hidden; }
+
+/* Colour helpers */
+.bg-navy { background-color: var(--navy) !important; }
+.text-accent { color: var(--accent) !important; }
+.text-bg-accent { background-color: var(--accent) !important; color: var(--navy) !important; }
+
+/* Buttons */
+.btn-accent {
+  background-color: var(--accent);
+  border-color: var(--accent);
+  color: var(--navy);
+  font-weight: 600;
+}
+.btn-accent:hover, .btn-accent:focus {
+  background-color: var(--accent-dark);
+  border-color: var(--accent-dark);
+  color: #fff;
+}
+.btn-outline-accent {
+  color: var(--accent-dark);
+  border-color: var(--accent);
+  font-weight: 600;
+}
+.btn-outline-accent:hover { background-color: var(--accent); color: var(--navy); }
+
+/* Navbar */
+.navbar .nav-link.active { color: var(--accent) !important; }
+
+/* Hero */
+.hero {
+  padding: 140px 0 80px;
+  background: radial-gradient(circle at 80% 30%, var(--navy-light) 0%, var(--navy) 60%);
+}
+.hero-img { max-height: 420px; }
+
+/* Stats */
+.stat { background: #fff; border-radius: 1rem; box-shadow: 0 2px 10px rgba(11, 29, 51, .06); }
+
+/* Feature cards */
+.icon-box {
+  width: 56px; height: 56px;
+  border-radius: 14px;
+  display: flex; align-items: center; justify-content: center;
+  font-size: 1.6rem;
+}
+.feature-card, .tool-card, #news .card { transition: transform .2s ease, box-shadow .2s ease; }
+.feature-card:hover, .tool-card:hover, #news .card:hover {
+  transform: translateY(-6px);
+  box-shadow: 0 .75rem 1.5rem rgba(11, 29, 51, .12) !important;
+}
+
+/* How it works */
+.side-img { max-height: 380px; }
+.accordion-button:not(.collapsed) { background-color: #e6f9fd; color: var(--navy); }
+.accordion-button:focus { box-shadow: 0 0 0 .2rem rgba(34, 211, 238, .25); }
+
+/* Tools */
+.tool-card { border: 1px solid #e3e8ef; border-radius: 1rem; }
+.tool-icon { font-size: 2.75rem; color: var(--accent-dark); }
+
+/* News */
+#news .card-img-top { aspect-ratio: 16 / 9; object-fit: cover; }
+
+/* Footer */
+.footer { background-color: #07131f; color: #8a9bb0; }
+.footer a { color: #b7c4d4; text-decoration: none; }
+.footer a:hover { color: var(--accent); }
+
+/* ===== Responsive tweaks ===== */
+@media (max-width: 991.98px) {
+  .hero { padding: 110px 0 60px; }
+  .hero-img { max-height: 300px; }
+  .navbar-collapse { padding-bottom: 1rem; }
+}
+@media (max-width: 575.98px) {
+  .hero h1 { font-size: 2.1rem; }
+  .hero-img { max-height: 220px; }
+  .stat h3 { font-size: 1.4rem; }
+}

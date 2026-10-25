@@ -1,0 +1,410 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>NeuraHub | Your Beginner's Guide to Artificial Intelligence</title>
+
+  <!-- Bootstrap 5 CSS -->
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet">
+  <!-- Bootstrap Icons -->
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css" rel="stylesheet">
+  <!-- Custom CSS -->
+  <link href="css/style.css" rel="stylesheet">
+</head>
+<body data-bs-spy="scroll" data-bs-target="#mainNav" data-bs-offset="80">
+
+  <!-- ===== NAVBAR ===== -->
+  <nav id="mainNav" class="navbar navbar-expand-lg navbar-dark bg-navy fixed-top shadow-sm">
+    <div class="container">
+      <a class="navbar-brand fw-bold d-flex align-items-center gap-2" href="#home">
+        <i class="bi bi-cpu-fill text-accent fs-4"></i> NeuraHub
+      </a>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navLinks"
+              aria-controls="navLinks" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navLinks">
+        <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
+          <li class="nav-item"><a class="nav-link active" href="#home">Home</a></li>
+          <li class="nav-item"><a class="nav-link" href="#types">Types of AI</a></li>
+          <li class="nav-item"><a class="nav-link" href="#how">How It Works</a></li>
+          <li class="nav-item"><a class="nav-link" href="#tools">AI Tools</a></li>
+          <li class="nav-item"><a class="nav-link" href="#news">Blog</a></li>
+        </ul>
+        <a href="#subscribe" class="btn btn-accent ms-lg-3">Subscribe</a>
+      </div>
+    </div>
+  </nav>
+
+  <!-- ===== HERO ===== -->
+  <header id="home" class="hero bg-navy text-white">
+    <div class="container">
+      <div class="row align-items-center g-4 g-lg-5">
+        <div class="col-12 col-lg-6 text-center text-lg-start">
+          <span class="badge rounded-pill text-bg-accent mb-3">AI Explained Simply</span>
+          <h1 class="display-4 fw-bold">Understand the Technology <span class="text-accent">Shaping Tomorrow</span></h1>
+          <p class="lead text-white-50 my-4">
+            NeuraHub is a beginner-friendly guide to Artificial Intelligence. Discover what AI is, how machines
+            learn, and how AI tools are changing the way we study, work, and live.
+          </p>
+          <div class="d-flex flex-column flex-sm-row gap-3 justify-content-center justify-content-lg-start">
+            <a href="#types" class="btn btn-accent btn-lg"><i class="bi bi-rocket-takeoff me-2"></i>Start Learning</a>
+            <a href="#tools" class="btn btn-outline-light btn-lg"><i class="bi bi-tools me-2"></i>Explore AI Tools</a>
+          </div>
+        </div>
+        <div class="col-12 col-lg-6 text-center">
+          <img src="images/hero-ai.svg" class="img-fluid hero-img" alt="Illustration of an AI brain connected to a neural network">
+        </div>
+      </div>
+    </div>
+  </header>
+
+  <!-- ===== STATS ===== -->
+  <section class="py-5 bg-light">
+    <div class="container">
+      <div class="row row-cols-2 row-cols-md-4 g-4 text-center">
+        <div class="col">
+          <div class="stat p-3 h-100">
+            <i class="bi bi-calendar-event fs-1 text-accent"></i>
+            <h3 class="fw-bold mt-2 mb-0">1956</h3>
+            <p class="small text-muted mb-0">The term "Artificial Intelligence" was coined</p>
+          </div>
+        </div>
+        <div class="col">
+          <div class="stat p-3 h-100">
+            <i class="bi bi-diagram-3 fs-1 text-accent"></i>
+            <h3 class="fw-bold mt-2 mb-0">Billions</h3>
+            <p class="small text-muted mb-0">Of parameters in modern language models</p>
+          </div>
+        </div>
+        <div class="col">
+          <div class="stat p-3 h-100">
+            <i class="bi bi-phone fs-1 text-accent"></i>
+            <h3 class="fw-bold mt-2 mb-0">Daily</h3>
+            <p class="small text-muted mb-0">You already use AI in maps, filters, and feeds</p>
+          </div>
+        </div>
+        <div class="col">
+          <div class="stat p-3 h-100">
+            <i class="bi bi-briefcase fs-1 text-accent"></i>
+            <h3 class="fw-bold mt-2 mb-0">Every</h3>
+            <p class="small text-muted mb-0">Industry is adopting AI, from health to farming</p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ===== TYPES / BRANCHES OF AI (Cards) ===== -->
+  <section id="types" class="py-5">
+    <div class="container">
+      <div class="text-center mb-5">
+        <h2 class="fw-bold">Key Branches of AI</h2>
+        <p class="text-muted col-lg-7 mx-auto">AI is not just one technology. It is a family of fields, each teaching computers a different human-like skill.</p>
+      </div>
+      <div class="row row-cols-1 row-cols-md-2 row-cols-lg-3 g-4">
+        <div class="col">
+          <div class="card h-100 border-0 shadow-sm feature-card">
+            <div class="card-body">
+              <div class="icon-box bg-primary-subtle text-primary mb-3"><i class="bi bi-graph-up-arrow"></i></div>
+              <h5 class="card-title fw-bold">Machine Learning</h5>
+              <p class="card-text text-muted">Systems that learn patterns from data and improve their predictions without being explicitly programmed.</p>
+            </div>
+            <div class="card-footer bg-transparent border-0"><span class="badge text-bg-primary">Foundation</span></div>
+          </div>
+        </div>
+        <div class="col">
+          <div class="card h-100 border-0 shadow-sm feature-card">
+            <div class="card-body">
+              <div class="icon-box bg-info-subtle text-info-emphasis mb-3"><i class="bi bi-diagram-3"></i></div>
+              <h5 class="card-title fw-bold">Deep Learning</h5>
+              <p class="card-text text-muted">Uses layered neural networks, loosely inspired by the brain, to handle complex data like images and speech.</p>
+            </div>
+            <div class="card-footer bg-transparent border-0"><span class="badge text-bg-info">Advanced</span></div>
+          </div>
+        </div>
+        <div class="col">
+          <div class="card h-100 border-0 shadow-sm feature-card">
+            <div class="card-body">
+              <div class="icon-box bg-success-subtle text-success mb-3"><i class="bi bi-chat-dots"></i></div>
+              <h5 class="card-title fw-bold">Natural Language Processing</h5>
+              <p class="card-text text-muted">Lets computers read, understand, and write human language, powering chatbots and translators.</p>
+            </div>
+            <div class="card-footer bg-transparent border-0"><span class="badge text-bg-success">Language</span></div>
+          </div>
+        </div>
+        <div class="col">
+          <div class="card h-100 border-0 shadow-sm feature-card">
+            <div class="card-body">
+              <div class="icon-box bg-warning-subtle text-warning-emphasis mb-3"><i class="bi bi-eye"></i></div>
+              <h5 class="card-title fw-bold">Computer Vision</h5>
+              <p class="card-text text-muted">Teaches machines to recognize faces, objects, and scenes in photos and video.</p>
+            </div>
+            <div class="card-footer bg-transparent border-0"><span class="badge text-bg-warning">Vision</span></div>
+          </div>
+        </div>
+        <div class="col">
+          <div class="card h-100 border-0 shadow-sm feature-card">
+            <div class="card-body">
+              <div class="icon-box bg-danger-subtle text-danger mb-3"><i class="bi bi-robot"></i></div>
+              <h5 class="card-title fw-bold">Robotics &amp; Automation</h5>
+              <p class="card-text text-muted">Combines AI with machines that sense and move, from warehouse robots to self-driving cars.</p>
+            </div>
+            <div class="card-footer bg-transparent border-0"><span class="badge text-bg-danger">Physical AI</span></div>
+          </div>
+        </div>
+        <div class="col">
+          <div class="card h-100 border-0 shadow-sm feature-card">
+            <div class="card-body">
+              <div class="icon-box bg-secondary-subtle text-secondary mb-3"><i class="bi bi-stars"></i></div>
+              <h5 class="card-title fw-bold">Generative AI</h5>
+              <p class="card-text text-muted">Creates new text, images, music, and code based on what it has learned from huge datasets.</p>
+            </div>
+            <div class="card-footer bg-transparent border-0"><span class="badge text-bg-secondary">Creative</span></div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ===== HOW AI WORKS (Image + Accordion) ===== -->
+  <section id="how" class="py-5 bg-light">
+    <div class="container">
+      <div class="row align-items-center g-4 g-lg-5">
+        <div class="col-12 col-md-5 order-md-2 text-center">
+          <img src="images/neural-network.svg" class="img-fluid rounded-4 shadow side-img" alt="Diagram of a neural network with input, hidden, and output layers">
+        </div>
+        <div class="col-12 col-md-7 order-md-1">
+          <h2 class="fw-bold mb-3">How Does AI Learn?</h2>
+          <p class="text-muted mb-4">Most modern AI follows the same five basic steps. Click each step to learn more.</p>
+          <div class="accordion" id="stepsAccordion">
+            <div class="accordion-item">
+              <h3 class="accordion-header">
+                <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#step1">
+                  <i class="bi bi-1-circle-fill text-accent me-2"></i> Collect data
+                </button>
+              </h3>
+              <div id="step1" class="accordion-collapse collapse show" data-bs-parent="#stepsAccordion">
+                <div class="accordion-body">AI needs examples to learn from, such as thousands of labeled photos, text documents, or sensor readings.</div>
+              </div>
+            </div>
+            <div class="accordion-item">
+              <h3 class="accordion-header">
+                <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#step2">
+                  <i class="bi bi-2-circle-fill text-accent me-2"></i> Prepare the data
+                </button>
+              </h3>
+              <div id="step2" class="accordion-collapse collapse" data-bs-parent="#stepsAccordion">
+                <div class="accordion-body">The data is cleaned, organized, and split into a training set and a testing set so results can be checked fairly.</div>
+              </div>
+            </div>
+            <div class="accordion-item">
+              <h3 class="accordion-header">
+                <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#step3">
+                  <i class="bi bi-3-circle-fill text-accent me-2"></i> Train the model
+                </button>
+              </h3>
+              <div id="step3" class="accordion-collapse collapse" data-bs-parent="#stepsAccordion">
+                <div class="accordion-body">The model makes guesses, measures how wrong it was, and adjusts its internal weights, repeating this millions of times.</div>
+              </div>
+            </div>
+            <div class="accordion-item">
+              <h3 class="accordion-header">
+                <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#step4">
+                  <i class="bi bi-4-circle-fill text-accent me-2"></i> Test and evaluate
+                </button>
+              </h3>
+              <div id="step4" class="accordion-collapse collapse" data-bs-parent="#stepsAccordion">
+                <div class="accordion-body">The trained model is tested on data it has never seen to check its accuracy and spot bias or errors.</div>
+              </div>
+            </div>
+            <div class="accordion-item">
+              <h3 class="accordion-header">
+                <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#step5">
+                  <i class="bi bi-5-circle-fill text-accent me-2"></i> Deploy and improve
+                </button>
+              </h3>
+              <div id="step5" class="accordion-collapse collapse" data-bs-parent="#stepsAccordion">
+                <div class="accordion-body">The model is put into a real app, monitored, and retrained with new data so it keeps getting better.</div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ===== AI TOOLS (Showcase cards) ===== -->
+  <section id="tools" class="py-5">
+    <div class="container">
+      <div class="text-center mb-5">
+        <h2 class="fw-bold">AI Tools You Can Try Today</h2>
+        <p class="text-muted col-lg-7 mx-auto">You don't need to be a programmer to use AI. These kinds of tools are already helping students and professionals.</p>
+      </div>
+      <div class="row row-cols-1 row-cols-sm-2 row-cols-lg-4 g-4">
+        <div class="col">
+          <div class="card h-100 text-center tool-card">
+            <div class="card-body">
+              <i class="bi bi-chat-square-text tool-icon"></i>
+              <h5 class="card-title fw-bold mt-3">AI Chat Assistants</h5>
+              <p class="card-text small text-muted">Answer questions, explain topics, and help brainstorm ideas.</p>
+            </div>
+            <div class="card-footer bg-transparent border-0 pb-3">
+              <a href="#types" class="btn btn-outline-accent btn-sm">Learn More</a>
+            </div>
+          </div>
+        </div>
+        <div class="col">
+          <div class="card h-100 text-center tool-card">
+            <div class="card-body">
+              <i class="bi bi-image tool-icon"></i>
+              <h5 class="card-title fw-bold mt-3">Image Generators</h5>
+              <p class="card-text small text-muted">Turn a text description into an original picture or design.</p>
+            </div>
+            <div class="card-footer bg-transparent border-0 pb-3">
+              <a href="#types" class="btn btn-outline-accent btn-sm">Learn More</a>
+            </div>
+          </div>
+        </div>
+        <div class="col">
+          <div class="card h-100 text-center tool-card">
+            <div class="card-body">
+              <i class="bi bi-code-slash tool-icon"></i>
+              <h5 class="card-title fw-bold mt-3">Coding Assistants</h5>
+              <p class="card-text small text-muted">Suggest, explain, and debug code right inside your editor.</p>
+            </div>
+            <div class="card-footer bg-transparent border-0 pb-3">
+              <a href="#how" class="btn btn-outline-accent btn-sm">Learn More</a>
+            </div>
+          </div>
+        </div>
+        <div class="col">
+          <div class="card h-100 text-center tool-card">
+            <div class="card-body">
+              <i class="bi bi-translate tool-icon"></i>
+              <h5 class="card-title fw-bold mt-3">Translators</h5>
+              <p class="card-text small text-muted">Translate text and speech between languages in real time.</p>
+            </div>
+            <div class="card-footer bg-transparent border-0 pb-3">
+              <a href="#types" class="btn btn-outline-accent btn-sm">Learn More</a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ===== BLOG (Image cards) ===== -->
+  <section id="news" class="py-5 bg-light">
+    <div class="container">
+      <div class="d-flex flex-column flex-md-row justify-content-between align-items-md-end mb-4 gap-2">
+        <div>
+          <h2 class="fw-bold mb-1">Latest from the Blog</h2>
+          <p class="text-muted mb-0">Stories about how AI is used in the real world.</p>
+        </div>
+        <a href="#news" class="btn btn-link text-accent p-0 text-decoration-none">View all articles <i class="bi bi-arrow-right"></i></a>
+      </div>
+      <div class="row g-4">
+        <div class="col-12 col-md-6 col-lg-4">
+          <article class="card h-100 border-0 shadow-sm">
+            <img src="images/ai-healthcare.svg" class="card-img-top" alt="Illustration of AI analyzing a heart rate on a medical screen">
+            <div class="card-body">
+              <span class="badge text-bg-danger mb-2">Healthcare</span>
+              <h5 class="card-title fw-bold">How AI Helps Doctors Detect Diseases Earlier</h5>
+              <p class="card-text text-muted small">Computer vision models can scan X-rays and medical images to flag problems for doctors to review.</p>
+            </div>
+            <div class="card-footer bg-transparent border-0 d-flex justify-content-between small text-muted">
+              <span><i class="bi bi-calendar3 me-1"></i>Oct 20, 2026</span><span>5 min read</span>
+            </div>
+          </article>
+        </div>
+        <div class="col-12 col-md-6 col-lg-4">
+          <article class="card h-100 border-0 shadow-sm">
+            <img src="images/ai-education.svg" class="card-img-top" alt="Illustration of a student chatting with an AI tutor">
+            <div class="card-body">
+              <span class="badge text-bg-primary mb-2">Education</span>
+              <h5 class="card-title fw-bold">Using AI as a Study Buddy (the Right Way)</h5>
+              <p class="card-text text-muted small">Tips for using AI to understand lessons better without letting it do your thinking for you.</p>
+            </div>
+            <div class="card-footer bg-transparent border-0 d-flex justify-content-between small text-muted">
+              <span><i class="bi bi-calendar3 me-1"></i>Oct 14, 2026</span><span>4 min read</span>
+            </div>
+          </article>
+        </div>
+        <div class="col-12 col-md-12 col-lg-4">
+          <article class="card h-100 border-0 shadow-sm">
+            <img src="images/ai-ethics.svg" class="card-img-top" alt="Illustration of a balance scale weighing a robot and a person">
+            <div class="card-body">
+              <span class="badge text-bg-success mb-2">AI Ethics</span>
+              <h5 class="card-title fw-bold">Bias, Privacy, and Fairness: Why Responsible AI Matters</h5>
+              <p class="card-text text-muted small">AI is only as fair as the data it learns from. Here is why ethics matter as AI grows.</p>
+            </div>
+            <div class="card-footer bg-transparent border-0 d-flex justify-content-between small text-muted">
+              <span><i class="bi bi-calendar3 me-1"></i>Oct 7, 2026</span><span>6 min read</span>
+            </div>
+          </article>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ===== SUBSCRIBE ===== -->
+  <section id="subscribe" class="py-5 bg-navy text-white">
+    <div class="container">
+      <div class="row justify-content-center text-center">
+        <div class="col-12 col-md-10 col-lg-7">
+          <i class="bi bi-envelope-check display-5 text-accent"></i>
+          <h2 class="fw-bold mt-3">Get Weekly AI Updates</h2>
+          <p class="text-white-50 mb-4">Join our newsletter for easy-to-read AI news and tutorials every Monday. No spam, ever.</p>
+          <form class="row g-2 justify-content-center" onsubmit="event.preventDefault(); this.reset(); document.getElementById('subMsg').classList.remove('d-none');">
+            <div class="col-12 col-sm-8">
+              <input type="email" class="form-control form-control-lg" placeholder="Enter your email" aria-label="Email address" required>
+            </div>
+            <div class="col-12 col-sm-4 d-grid">
+              <button type="submit" class="btn btn-accent btn-lg">Subscribe</button>
+            </div>
+          </form>
+          <div id="subMsg" class="alert alert-success mt-3 d-none" role="alert">
+            <i class="bi bi-check-circle me-1"></i> Thanks for subscribing! (Demo only)
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ===== FOOTER ===== -->
+  <footer class="footer py-4">
+    <div class="container">
+      <div class="row gy-3 align-items-center">
+        <div class="col-12 col-md-4 text-center text-md-start">
+          <span class="fw-bold text-white"><i class="bi bi-cpu-fill text-accent me-1"></i>NeuraHub</span>
+        </div>
+        <div class="col-12 col-md-4 text-center">
+          <ul class="list-inline mb-0 small">
+            <li class="list-inline-item"><a href="#types">Types</a></li>
+            <li class="list-inline-item"><a href="#how">How It Works</a></li>
+            <li class="list-inline-item"><a href="#tools">Tools</a></li>
+            <li class="list-inline-item"><a href="#news">Blog</a></li>
+          </ul>
+        </div>
+        <div class="col-12 col-md-4 text-center text-md-end small">
+          &copy; 2026 NeuraHub. Laboratory Activity No. 5.
+        </div>
+      </div>
+    </div>
+  </footer>
+
+  <!-- Bootstrap 5 JS Bundle (includes Popper) -->
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
+  <script>
+    // Close the mobile menu after a nav link is tapped
+    document.querySelectorAll('#navLinks .nav-link, #navLinks .btn').forEach(function (link) {
+      link.addEventListener('click', function () {
+        var menu = bootstrap.Collapse.getInstance(document.getElementById('navLinks'));
+        if (menu) menu.hide();
+      });
+    });
+  </script>
+</body>
+</html>
